@@ -4,8 +4,8 @@ Reads a borescope report and says whether the cavity is fully filled, partially 
 
 ## How to run
 
-pip install -r requirements.txt
-python parse_borescope.py
+- pip install -r requirements.txt
+- python parse_borescope.py
 
 ## Output
 
