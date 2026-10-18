@@ -82,7 +82,7 @@ def save_to_excel(reports, path):
                       result["insulation_type"], ", ".join(result["warnings"])])
     book.save(path)
 
-# run the parser on the three snippets and save the results
+# run the parser and save the results
 path = "borescope_results.xlsx"
 save_to_excel({"A": snippet_a, "B": snippet_b, "C": snippet_c}, path)
 print(f"Saved {path}")
